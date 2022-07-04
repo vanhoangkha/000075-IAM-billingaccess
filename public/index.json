@@ -1,0 +1,78 @@
+[
+{
+	"uri": "/2-prerequiste/2.1-createiamusergroup/",
+	"title": "Create IAM user group",
+	"tags": [],
+	"description": "",
+	"content": "  Access to AWS Management Console\n Find IAM Select IAM     In the IAM . interface\n Select Users Select Add users     In the Details page\n For Administrator Select AWS Management Console access Select Custom password Set the password you want Uncheck User must create a new password at next sign-in Select Next: Permissions.     In Permissions page\n Select Add user to group Select Create group     In the Create group interface\n Enter Administrators for Group name Select AdministratorAccess Select Create group     In the Add user interface\n Select Next: Tags    Select Next: Review  Select Create user.  Download access information and save it. Select Close  Finish creating user and user groups.  "
+},
+{
+	"uri": "/",
+	"title": "Delegate access to the billing console",
+	"tags": [],
+	"description": "",
+	"content": "Delegate access to the billing console AWS account owners can delegate access to specific IAM users who need to view or manage the AWS Billing and Cost Management data for an AWS account. The instructions that follow will help you set up a pretested scenario. This scenario helps you gain hands-on experience configuring billing permissions without concern for affecting your main AWS production account.\nIn this case, you will be logged into the root account and you want to grant billing permission to IAM Users or an IAM user group. This lab will answer questions about this section.\nContent  Introduction Preparation steps Enable Access Create policy Assign policy Access Test Resource Cleanup  "
+},
+{
+	"uri": "/1-introduce/",
+	"title": "Introduction",
+	"tags": [],
+	"description": "",
+	"content": "Introduction In this case, you will be logged into the root account and you want to grant billing permission to IAM Users or an IAM user group. Through this lab will answer questions about this section.\n"
+},
+{
+	"uri": "/2-prerequiste/",
+	"title": "Preparation",
+	"tags": [],
+	"description": "",
+	"content": "Preparation  We need to prepare to create an IAM user and IAM user group for later assigned access to the billing feature on AWS.  "
+},
+{
+	"uri": "/3-enableaccess/",
+	"title": "Enable Access",
+	"tags": [],
+	"description": "",
+	"content": "Enable access  Sign in to the AWS Management Console with the root account.   You can choose My Account\n Scroll down to IAM User and Role Access to Billing Information Select Edit     In the edit interface of IAM User and Role Access to Billing Information\n Select Activate IAM Access, activate access to the Billing and Cost Management console page Select Update    "
+},
+{
+	"uri": "/4-createpolicies/",
+	"title": "Create IAM policy",
+	"tags": [],
+	"description": "",
+	"content": "Create IAM Policy   Go to AWS Management Console\n In the IAM interface, select Policies Select Create policy     In the Visual editor tab,\n Select Choose a service Select Billing     For Select actions\n Select All Billing actions (aws-portal:*) Select Next: Tags    Select Next: Review   In the Review page,\n For Name, enter BillingViewAccess Then, select Create policy    "
+},
+{
+	"uri": "/5-attachpolicies/",
+	"title": "Assign Policy",
+	"tags": [],
+	"description": "",
+	"content": "  Access to IAM\n Select Policies Select BillingFullAccess Select Actions Select Attach     In the Attach Policy interface\n Select user Administrator Select Attach Policy    "
+},
+{
+	"uri": "/6-testpolicies/",
+	"title": "Access Test",
+	"tags": [],
+	"description": "",
+	"content": "Check access  Login to the IAM user account  Login successful.  Access to Billing successfully. So we have granted the IAM user permission to view the successful billing.  "
+},
+{
+	"uri": "/7-cleanup/",
+	"title": "Clean up resources",
+	"tags": [],
+	"description": "",
+	"content": "Clean up resources Delete IAM User Group  Access to IAM console Select User groups Select the usergroup to delete and select Delete Confirm delete usergroup.  "
+},
+{
+	"uri": "/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]
