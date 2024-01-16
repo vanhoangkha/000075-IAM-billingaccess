@@ -1,8 +1,8 @@
 ---
-title : "Ủy quyền quyền truy cập vào bảng điều khiển thanh toán"
-date :  "`r Sys.Date()`" 
-weight : 1 
-chapter : false
+title: "Ủy quyền quyền truy cập vào bảng điều khiển thanh toán"
+date: "`r Sys.Date()`"
+weight: 1
+chapter: false
 ---
 
 # Ủy quyền quyền truy cập vào bảng điều khiển thanh toán
@@ -20,4 +20,3 @@ Trong trường hợp này, bạn sẽ đăng nhập vào root account và bạn
 5. [Gán policy](5-attachpolicies/)
 6. [Kiểm tra truy cập](6-testpolicies/)
 7. [Dọn dẹp tài nguyên](7-cleanup/)
-

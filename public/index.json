@@ -1,10 +1,10 @@
 [
 {
 	"uri": "/2-prerequiste/2.1-createiamusergroup/",
-	"title": "Create IAM user group",
+	"title": "Create IAM User Group",
 	"tags": [],
 	"description": "",
-	"content": "  Access to AWS Management Console\n Find IAM Select IAM     In the IAM . interface\n Select Users Select Add users     In the Details page\n For Administrator Select AWS Management Console access Select Custom password Set the password you want Uncheck User must create a new password at next sign-in Select Next: Permissions.     In Permissions page\n Select Add user to group Select Create group     In the Create group interface\n Enter Administrators for Group name Select AdministratorAccess Select Create group     In the Add user interface\n Select Next: Tags    Select Next: Review  Select Create user.  Download access information and save it. Select Close  Finish creating user and user groups.  "
+	"content": "  Access to AWS Management Console\n Find IAM Select IAM     In the IAM Interface\n Select Users Select Add users     In the Details Page\n For Administrator Select AWS Management Console access Select Custom password Set the password you want Uncheck User must create a new password at next sign-in Select Next: Permissions     In Permissions Page\n Select Add user to group Select Create group     In the Create Group Interface\n Enter Administrators for Group name Select AdministratorAccess Select Create group     In the Add User Interface\n Select Next: Tags    Select Next: Review  Select Create user  Download access information and save it. Select Close  Finish creating user and user groups.  "
 },
 {
 	"uri": "/",
@@ -18,14 +18,14 @@
 	"title": "Introduction",
 	"tags": [],
 	"description": "",
-	"content": "Introduction In this case, you will be logged into the root account and you want to grant billing permission to IAM Users or an IAM user group. Through this lab will answer questions about this section.\n"
+	"content": "Giới thiệu Trong trường hợp này, bạn sẽ được đăng nhập vào tài khoản root và bạn muốn cấp quyền thanh toán cho Người dùng IAM hoặc một nhóm người dùng IAM. Thông qua bài lab này sẽ trả lời các câu hỏi về phần này.\n"
 },
 {
 	"uri": "/2-prerequiste/",
 	"title": "Preparation",
 	"tags": [],
 	"description": "",
-	"content": "Preparation  We need to prepare to create an IAM user and IAM user group for later assigned access to the billing feature on AWS.  "
+	"content": "Preparation  We need to prepare for creating an IAM user and an IAM user group, which will later be assigned access to the billing feature on AWS.  "
 },
 {
 	"uri": "/3-enableaccess/",
@@ -36,7 +36,7 @@
 },
 {
 	"uri": "/4-createpolicies/",
-	"title": "Create IAM policy",
+	"title": "Create IAM Policy",
 	"tags": [],
 	"description": "",
 	"content": "Create IAM Policy   Go to AWS Management Console\n In the IAM interface, select Policies Select Create policy     In the Visual editor tab,\n Select Choose a service Select Billing     For Select actions\n Select All Billing actions (aws-portal:*) Select Next: Tags    Select Next: Review   In the Review page,\n For Name, enter BillingViewAccess Then, select Create policy    "
@@ -46,14 +46,14 @@
 	"title": "Assign Policy",
 	"tags": [],
 	"description": "",
-	"content": "  Access to IAM\n Select Policies Select BillingFullAccess Select Actions Select Attach     In the Attach Policy interface\n Select user Administrator Select Attach Policy    "
+	"content": " Access to IAM   Select Policies Select BillingFullAccess Select Actions Select Attach  In the Attach Policy interface   Select user Administrator Select Attach Policy  "
 },
 {
 	"uri": "/6-testpolicies/",
 	"title": "Access Test",
 	"tags": [],
 	"description": "",
-	"content": "Check access  Login to the IAM user account  Login successful.  Access to Billing successfully. So we have granted the IAM user permission to view the successful billing.  "
+	"content": "Check access   Login to the IAM user account\n  Login successful.\n  Access to Billing successfully. So we have granted the IAM user permission to view the successful billing.\n  "
 },
 {
 	"uri": "/7-cleanup/",

@@ -1,9 +1,10 @@
 ---
-title : "Delegate access to the billing console"
-date : "`r Sys.Date()`"
-weight : 1
-chapter : false
+title: "Delegate access to the billing console"
+date: "`r Sys.Date()`"
+weight: 1
+chapter: false
 ---
+
 # Delegate access to the billing console
 
 AWS account owners can delegate access to specific IAM users who need to view or manage the AWS Billing and Cost Management data for an AWS account. The instructions that follow will help you set up a pretested scenario. This scenario helps you gain hands-on experience configuring billing permissions without concern for affecting your main AWS production account.

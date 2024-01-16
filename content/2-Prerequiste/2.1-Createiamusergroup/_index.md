@@ -1,44 +1,44 @@
 ---
-title : "Create IAM user group"
-date : "`r Sys.Date()`"
-weight : 1
-chapter : false
-pre : " <b> 2.1 </b> "
+title: "Create IAM User Group"
+date: "`r Sys.Date()`"
+weight: 1
+chapter: false
+pre: "<b>2.1</b>"
 ---
 
-1. Access to AWS Management Console
+1. **Access to AWS Management Console**
 
    - Find IAM
    - Select IAM
 
 ![Delegate access to the billing console](/images/0004.png?featherlight=false&width=90pc)
 
-2. In the IAM . interface
+2. **In the IAM Interface**
 
    - Select **Users**
    - Select **Add users**
 
 ![Delegate access to the billing console](/images/0005.png?featherlight=false&width=90pc)
 
-3. In the **Details** page
+3. **In the Details Page**
 
    - For **Administrator**
    - Select **AWS Management Console access**
    - Select **Custom password**
    - Set the password you want
    - Uncheck **User must create a new password at next sign-in**
-   - Select **Next: Permissions.**
+   - Select **Next: Permissions**
 
 ![Delegate access to the billing console](/images/0006.png?featherlight=false&width=90pc)
 
-4. In **Permissions** page
+4. **In Permissions Page**
 
    - Select **Add user to group**
    - Select **Create group**
 
 ![Delegate access to the billing console](/images/0007.png?featherlight=false&width=90pc)
 
-5. In the Create group interface
+5. **In the Create Group Interface**
 
    - Enter **Administrators** for **Group name**
    - Select **AdministratorAccess**
@@ -46,17 +46,17 @@ pre : " <b> 2.1 </b> "
 
 ![Delegate access to the billing console](/images/0008.png?featherlight=false&width=90pc)
 
-6. In the **Add user** interface
+6. **In the Add User Interface**
 
     - Select **Next: Tags**
 
 ![Delegate access to the billing console](/images/0009.png?featherlight=false&width=90pc)
 
-7. Select **Next: Review**
+7. **Select Next: Review**
 
 ![Delegate access to the billing console](/images/00010.png?featherlight=false&width=90pc)
 
-8. Select **Create user.**
+8. **Select Create user**
 
 ![Delegate access to the billing console](/images/00011.png?featherlight=false&width=90pc)
 

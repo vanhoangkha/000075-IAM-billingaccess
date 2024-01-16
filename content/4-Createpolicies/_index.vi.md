@@ -1,9 +1,9 @@
 ---
-title : "Tạo IAM policy"
-date :  "`r Sys.Date()`" 
-weight : 4 
-chapter : false
-pre : " <b> 4. </b> "
+title: "Tạo IAM policy"
+date: "`r Sys.Date()`"
+weight: 4
+chapter: false
+pre: "<b>4.</b>"
 ---
 
 #### Tạo IAM Policy
@@ -13,30 +13,29 @@ pre : " <b> 4. </b> "
    - Trong giao diện **IAM**, chọn **Policies**
    - Chọn **Create policy**
 
-![Delegate access to the billing console](/images/00014.png?featherlight=false&width=90pc)
+   ![Delegate access to the billing console](/images/00014.png?featherlight=false&width=90pc)
 
-2. Trong **Visual editor** tab, 
+2. Trong tab **Visual editor**, 
 
    - Chọn **Choose a service**
    - Chọn **Billing**
 
-![Delegate access to the billing console](/images/00015.png?featherlight=false&width=90pc)
+   ![Delegate access to the billing console](/images/00015.png?featherlight=false&width=90pc)
 
-3. Đối với **Select actions**
+3. Đối với **Select actions**,
 
    - Chọn **All Billing actions (aws-portal:*)**
    - Chọn **Next: Tags**
 
-![Delegate access to the billing console](/images/00016.png?featherlight=false&width=90pc)
+   ![Delegate access to the billing console](/images/00016.png?featherlight=false&width=90pc)
 
 4. Chọn **Next: Review**
 
-![Delegate access to the billing console](/images/00017.png?featherlight=false&width=90pc)
+   ![Delegate access to the billing console](/images/00017.png?featherlight=false&width=90pc)
 
 5. Trong trang **Review**,
 
    - Đối với **Name**, nhập **BillingViewAccess**
    - Sau đó, chọn **Create policy**
 
-![Delegate access to the billing console](/images/00018.png?featherlight=false&width=90pc)
-
+   ![Delegate access to the billing console](/images/00018.png?featherlight=false&width=90pc)

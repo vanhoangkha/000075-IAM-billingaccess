@@ -1,12 +1,12 @@
 ---
-title : "Enable Access"
-date : "`r Sys.Date()`"
-weight : 3
-chapter : false
-pre : " <b> 3. </b> "
+title: "Enable Access"
+date: "`r Sys.Date()`"
+weight: 3
+chapter: false
+pre: "<b>3.</b>"
 ---
 
-#### Enable access
+### Enable access
 
 1. Sign in to the AWS Management Console with the root account.
 

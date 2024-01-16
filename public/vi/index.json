@@ -11,7 +11,7 @@
 	"title": "Tạo IAM user group",
 	"tags": [],
 	"description": "",
-	"content": "  Truy cập vào AWS Management Console\n Tìm IAM Chọn IAM     Trong giao diện IAM\n Chọn Users Chọn Add users     Trong trang Details\n Đối với Administrator Chọn AWS Management Console access Chọn Custom password Đặt password mà bạn muốn Bỏ chọn User must create a new password at next sign-in Chọn Next: Permissions.     Trong trang Permissions\n Chọn Add user to group Chọn Create group     Trong giao diện Create group\n Nhập Administrators đối với Group name Chọn AdministratorAccess Chọn Create group     Trong giao diện Add user\n Chọn Next: Tags    Chọn Next: Review  Chọn Create user.  Download thông tin truy cập và lưu trữ lại.Chọn Close  Hoàn thành tạo user và user group.  "
+	"content": "  Truy cập vào AWS Management Console\n Tìm IAM Chọn IAM    Trong giao diện IAM\n Chọn Users Chọn Add users    Trong trang Details\n Đối với Administrator Chọn AWS Management Console access Chọn Custom password Đặt password mà bạn muốn Bỏ chọn User must create a new password at next sign-in Chọn Next: Permissions.    Trong trang Permissions\n Chọn Add user to group Chọn Create group    Trong giao diện Create group\n Nhập Administrators đối với Group name Chọn AdministratorAccess Chọn Create group    Trong giao diện Add user\n Chọn Next: Tags    Chọn Next: Review\n  Chọn Create user.\n  Download thông tin truy cập và lưu trữ lại.Chọn Close\n  Hoàn thành tạo user và user group.\n  "
 },
 {
 	"uri": "/vi/",
@@ -32,28 +32,28 @@
 	"title": "Kích hoạt truy cập",
 	"tags": [],
 	"description": "",
-	"content": "Kích hoạt truy cập  Đăng nhập vào AWS Management Console bằng tài khoản root.   Bạn có thể chọn My Account\n Kéo xuống đến phần IAM User and Role Access to Billing Information Chọn Edit     Trong giao diện edit của IAM User and Role Access to Billing Information\n Chọn Activate IAM Access, kích hoạt truy cập vào trang Billing and Cost Management console Chọn Update    "
+	"content": "Kích hoạt truy cập   Đăng nhập vào AWS Management Console bằng tài khoản root.\n  Bạn có thể chọn My Account\n Kéo xuống đến phần IAM User and Role Access to Billing Information Chọn Edit    Trong giao diện edit của IAM User and Role Access to Billing Information\n Chọn Activate IAM Access, kích hoạt truy cập vào trang Billing and Cost Management console Chọn Update    "
 },
 {
 	"uri": "/vi/4-createpolicies/",
 	"title": "Tạo IAM policy",
 	"tags": [],
 	"description": "",
-	"content": "Tạo IAM Policy   Truy cập vào AWS Management Console\n Trong giao diện IAM, chọn Policies Chọn Create policy     Trong Visual editor tab,\n Chọn Choose a service Chọn Billing     Đối với Select actions\n Chọn All Billing actions (aws-portal:*) Chọn Next: Tags    Chọn Next: Review   Trong trang Review,\n Đối với Name, nhập BillingViewAccess Sau đó, chọn Create policy    "
+	"content": "Tạo IAM Policy   Truy cập vào AWS Management Console\n Trong giao diện IAM, chọn Policies Chọn Create policy    Trong tab Visual editor,\n Chọn Choose a service Chọn Billing    Đối với Select actions,\n Chọn All Billing actions (aws-portal:*) Chọn Next: Tags    Chọn Next: Review\n  Trong trang Review,\n Đối với Name, nhập BillingViewAccess Sau đó, chọn Create policy    "
 },
 {
 	"uri": "/vi/5-attachpolicies/",
 	"title": "Gán Policy",
 	"tags": [],
 	"description": "",
-	"content": "  Truy cập vào IAM\n Chọn Policies Chọn BillingFullAccess Chọn Actions Chọn Attach     Trong giao diện Attach Policy\n Chọn user Administrator Chọn Attach Policy    "
+	"content": "  Truy cập vào IAM\n Chọn Policies Chọn BillingFullAccess Chọn Actions Chọn Attach    Trong giao diện Attach Policy\n Chọn user Administrator Chọn Attach Policy    "
 },
 {
 	"uri": "/vi/6-testpolicies/",
 	"title": "Kiểm tra truy cập",
 	"tags": [],
 	"description": "",
-	"content": "Kiểm tra truy cập  Đăng nhập tài khoản IAM user  Đăng nhập thành công.  Truy cập vào Biling thành công. Vậy chúng ta đã cấp quyền cho IAM user xem billing thành công.  "
+	"content": "Kiểm tra truy cập   Đăng nhập tài khoản IAM user\n  Đăng nhập thành công.\n  Truy cập vào Billing thành công. Vậy chúng ta đã cấp quyền cho IAM user xem billing thành công.\n  "
 },
 {
 	"uri": "/vi/7-cleanup/",
